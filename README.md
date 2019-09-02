@@ -1,5 +1,6 @@
-#Labeling
+# Labeling
 A simple, efficient tool for multiuser detection task labeling
+
 ![UI](https://github.com/wirustea/labeling/blob/master/introduction/ui.png)
 
 ## Introduction
@@ -10,7 +11,7 @@ This tool is designed for multiuser detection task labeling (Windows,Linux,MacOs
 
 ## Requirements
 - PyQt5
-- PyInstaller (option, if you wang to pack as a executable file)
+- PyInstaller (option, if you want to pack as a executable file, very recommand)
 
 ## Quick start
 0. Clone this project
@@ -67,7 +68,7 @@ Then a folder create, include run.exe(Windows), run(MacOs,Linux), you need to ad
 <img src="https://github.com/wirustea/labeling/blob/master/introduction/orgnizer.png" width="300">
 <img src="https://github.com/wirustea/labeling/blob/master/introduction/add.png" width="300">
 
-5. Then, you can copy this folder to labeling users
+5. Then, you can copy this folder (**dist** if you pack them, **PROJECT_ROOT** if not) to other users
 
 6. Finally, collect all **result** folder and summary them
 
