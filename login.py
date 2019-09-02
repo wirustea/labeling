@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'login.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(371, 159)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.data_list_widget = QtWidgets.QTableWidget(self.centralwidget)
+        self.data_list_widget.setGeometry(QtCore.QRect(50, 110, 171, 191))
+        self.data_list_widget.setSelectionMode(QtWidgets.QAbstractItemView.ExtendedSelection)
+        self.data_list_widget.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectRows)
+        self.data_list_widget.setTextElideMode(QtCore.Qt.ElideMiddle)
+        self.data_list_widget.setRowCount(0)
+        self.data_list_widget.setColumnCount(1)
+        self.data_list_widget.setObjectName("data_list_widget")
+        item = QtWidgets.QTableWidgetItem()
+        self.data_list_widget.setHorizontalHeaderItem(0, item)
+        self.data_list_widget.horizontalHeader().setStretchLastSection(True)
+        self.data_list_widget.verticalHeader().setDefaultSectionSize(26)
+        self.data_list_widget.verticalHeader().setMinimumSectionSize(26)
+        self.data_list_widget.verticalHeader().setStretchLastSection(False)
+        self.submit_button = QtWidgets.QPushButton(self.centralwidget)
+        self.submit_button.setGeometry(QtCore.QRect(240, 260, 81, 41))
+        self.submit_button.setObjectName("submit_button")
+        self.delete_button = QtWidgets.QPushButton(self.centralwidget)
+        self.delete_button.setGeometry(QtCore.QRect(240, 210, 81, 41))
+        self.delete_button.setObjectName("delete_button")
+        self.layoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.layoutWidget.setGeometry(QtCore.QRect(50, 60, 273, 30))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.layoutWidget)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.lineEdit = QtWidgets.QLineEdit(self.layoutWidget)
+        self.lineEdit.setCursorPosition(5)
+        self.lineEdit.setAlignment(QtCore.Qt.AlignCenter)
+        self.lineEdit.setObjectName("lineEdit")
+        self.horizontalLayout.addWidget(self.lineEdit)
+        self.pushButton = QtWidgets.QPushButton(self.layoutWidget)
+        self.pushButton.setObjectName("pushButton")
+        self.horizontalLayout.addWidget(self.pushButton)
+        self.layoutWidget1 = QtWidgets.QWidget(self.centralwidget)
+        self.layoutWidget1.setGeometry(QtCore.QRect(240, 120, 111, 17))
+        self.layoutWidget1.setObjectName("layoutWidget1")
+        self.total = QtWidgets.QFormLayout(self.layoutWidget1)
+        self.total.setContentsMargins(0, 0, 0, 0)
+        self.total.setObjectName("total")
+        self.label = QtWidgets.QLabel(self.layoutWidget1)
+        self.label.setObjectName("label")
+        self.total.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.label)
+        self.num_total = QtWidgets.QLabel(self.layoutWidget1)
+        self.num_total.setObjectName("num_total")
+        self.total.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.num_total)
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(80, 40, 151, 16))
+        self.label_2.setStyleSheet("color: rgb(255, 24, 24);")
+        self.label_2.setObjectName("label_2")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 371, 26))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        item = self.data_list_widget.horizontalHeaderItem(0)
+        item.setText(_translate("MainWindow", "姓名"))
+        self.submit_button.setText(_translate("MainWindow", "提交"))
+        self.delete_button.setText(_translate("MainWindow", "删除(del)"))
+        self.lineEdit.setText(_translate("MainWindow", "请输入姓名"))
+        self.pushButton.setText(_translate("MainWindow", "确认"))
+        self.label.setText(_translate("MainWindow", "总计"))
+        self.num_total.setText(_translate("MainWindow", "0"))
+        self.label_2.setText(_translate("MainWindow", "请输入正确的姓名"))
+
