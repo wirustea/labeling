@@ -6,7 +6,7 @@ A simple, efficient tool for multiuser detection task labeling
 This tool is designed for multiuser detection task labeling (Windows,Linux,MacOs)
 - **Convient** Annotate **rotated rectangles** by three points
 - **Efficient**  labeling task are divided into many sub-tasks by classes, user just need to label one class one time
-- **Friendly UI** 
+- **Friendly UI**  
 
 ## Requirements
 - PyQt5
@@ -53,10 +53,10 @@ Then a folder create, include run.exe(Windows), run(MacOs,Linux), you need to ad
 > ```` bash
 > python run.py
 > ````
-4. If you are orgnizer, you can type "labeling" as super user name to specify labeling users, then it will automatically assign tasks by weights (the assignment infomation is writen in **config.json**)
+4. If you are the orgnizer, you can type "labeling" as super user name to specify labeling users, then it will automatically assign tasks by weights (the assignment infomation is writen in **config.json**)
 <!-- ![orgnizer login](https://github.com/wirustea/labeling/blob/master/introduction/orgnizer.png) -->
-![add users](https://github.com/wirustea/labeling/blob/master/introduction/add.png)
-<img src="https://github.com/wirustea/labeling/blob/master/introduction/orgnizer.png" width="100">
+<img src="https://github.com/wirustea/labeling/blob/master/introduction/orgnizer.png" width="300">
+<img src="https://github.com/wirustea/labeling/blob/master/introduction/add.png" width="300">
 5. Then, you can copy this folder to labeling users
 6. Finally, collect all **result** folder and summary them.
 ```` python
