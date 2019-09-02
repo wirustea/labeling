@@ -1,6 +1,6 @@
 #Labeling
 A simple, efficient tool for multiuser detection task labeling
-![UI](https://github.com/wirustea/labeling/introduction/ui.png)
+![UI](https://github.com/wirustea/labeling/blob/master/introduction/ui.png)
 
 ## Introduction
 This tool is designed for multiuser detection task labeling (Windows,Linux,MacOs)
@@ -54,8 +54,8 @@ Then a folder create, include run.exe(Windows), run(MacOs,Linux), you need to ad
 > python run.py
 > ````
 4. If you are orgnizer, you can type "labeling" as super user name to specify labeling users, then it will automatically assign tasks by weights (the assignment infomation is writen in **config.json**)
-![orgnizer login](https://github.com/wirustea/labeling/introduction/orgnizer.png)
-![add users](https://github.com/wirustea/labeling/introduction/add.png)
+![orgnizer login](https://github.com/wirustea/labeling/blob/master/introduction/orgnizer.png)
+![add users](https://github.com/wirustea/labeling/blob/master/introduction/add.png)
 5. Then, you can copy this folder to labeling users
 6. Finally, collect all **result** folder and summary them.
 ```` python
